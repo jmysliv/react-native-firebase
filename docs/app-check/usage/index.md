@@ -85,6 +85,8 @@ For instructions on how to generate required keys and register an app for the de
 
 ## Initialize
 
+> If you're using Expo, make sure to add the `@react-native-firebase/app-check` config plugin to your `app.json` or `app.config.js`. It handles the below installation steps for you. For instructions on how to do that, view the [Expo](/#expo) installation section.
+
 You must call initialize the AppCheck module prior to calling any firebase back-end services for App Check to function.
 
 To do that, edit your `ios/ProjectName/AppDelegate.mm` and add the following two lines:

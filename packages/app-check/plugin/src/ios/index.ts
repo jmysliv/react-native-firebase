@@ -1,0 +1,1 @@
+export { withAppCheckModule } from './appDelegate';
