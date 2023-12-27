@@ -18,7 +18,6 @@ export const modifyAppDelegate = (contents: string): string => {
 
 export const withAppCheckModule: ConfigPlugin = config =>
   withAppDelegate(config, async config => {
-    // Add import
     const contents = modifyAppDelegate(config.modResults.contents);
     config.modResults.contents = contents;
     return config;
